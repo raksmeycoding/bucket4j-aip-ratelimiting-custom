@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: bucket4j
+  datasource:
+    url: jdbc:postgresql://localhost:5432/default
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      format_sql: true
+    show-sql: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
